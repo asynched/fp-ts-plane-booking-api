@@ -1,0 +1,15 @@
+POST http://localhost:3333/planes HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "My plane",
+  "seats": 10
+}
+
+###
+
+GET http://localhost:3333/planes HTTP/1.1
+
+###
+
+GET http://localhost:3333/planes/62d64ea2b68733008f63277e HTTP/1.1

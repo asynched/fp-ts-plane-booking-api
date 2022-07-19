@@ -1,0 +1,19 @@
+{
+  "name": "plane-booking",
+  "scripts": {
+    "dev": "ts-node-dev -r tsconfig-paths/register --transpile-only --ignore-watch node_modules src/bootstrap.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.6",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "fp-ts": "^2.12.1",
+    "mongoose": "^6.4.5",
+    "zod": "^3.17.9"
+  }
+}
